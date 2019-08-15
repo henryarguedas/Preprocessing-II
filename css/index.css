@@ -239,12 +239,12 @@ img {
 header {
   border-bottom: 2px dashed gray;
 }
-.button {
+.btn .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   border-radius: 5px;
   background: #003459;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

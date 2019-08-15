@@ -1,1 +1,16 @@
-// Mixins in here
+// // Mixins in here
+// .button {
+//     width: 100%;
+//     border-radius: 5px;
+//     background: #003459;
+//     color: white;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+.buttons(@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
