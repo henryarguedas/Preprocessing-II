@@ -6,7 +6,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
+   @media @mobile {
+     flex-direction: column;
+   }
     
     .text-content {
       width: 48%;
@@ -27,6 +29,9 @@
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
 
+    @media @mobile {
+      flex-direction: column-reverse;
+    }
     .text-content {
       padding-left: 1%;
       padding-right: 0;
@@ -53,9 +58,48 @@
     display: flex;
     justify-content: space-between;
 
+    @media @mobile {
+      flex-direction: column;
+      justify-content: center;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
     }
   }
 }// home
+
+header {
+  border-bottom: 2px dashed gray;
+
+    //   @media @mobile {
+                    
+    // }     
+}
+
+
+// .button {
+//   width: 100%;
+//   border-radius: 5px;
+//   background: #003459;
+//   color: white;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+.btn .button{
+.buttons(center, center);
+width: 100%;
+border-radius: 1.4rem;
+background: #003459;
+color: white;
+  
+&:hover {
+  background: lighten(#003459, 20%);
+  cursor: pointer;
+}
+
+}
+
+
