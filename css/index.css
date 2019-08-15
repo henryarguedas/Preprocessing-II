@@ -179,6 +179,12 @@ img {
   text-decoration: none;
   font-size: 16px;
 }
+.button {
+  width: 70%;
+  border-radius: 5px;
+  background: #003459;
+  color: white;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
