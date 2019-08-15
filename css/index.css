@@ -179,12 +179,6 @@ img {
   text-decoration: none;
   font-size: 16px;
 }
-.button {
-  width: 70%;
-  border-radius: 5px;
-  background: #003459;
-  color: white;
-}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -241,4 +235,16 @@ img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+header {
+  border-bottom: 2px dashed gray;
+}
+.button {
+  width: 100%;
+  border-radius: 5px;
+  background: #003459;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
