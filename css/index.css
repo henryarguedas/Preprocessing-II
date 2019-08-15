@@ -1,1 +1,4 @@
-/* LESS needs to be processed */
+@variables .less;
+html {
+  background-color: blanchedalmond;
+}
